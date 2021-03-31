@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+}
+body
+{
+    min-height: 100vh;
+    min-width: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url(../img/pic.jpg);
+    background-size: cover;
+    
+}
+    
+        
+    h1{
+        color: rgb(10, 10, 10);
+        font-size: 35px;
+        margin-top: 10px;
+
+    }
+    form{
+        margin-top: 50px;
+        background: rgb(255, 255, 255);
+        box-shadow: -10px 14px 9px rgb(7, 6, 6);
+        
+    }
+form input{
+    width: 355px;
+    height: 30px;
+    outline: none;
+    padding: 0 8px;
+    font-size: 25px;
+    border: none;
+}
+form button{
+    width: 50px;
+    height: 40px;
+    background: rgb(0, 4, 255);
+    color: rgb(10, 10, 10);
+    cursor: pointer;
+    outline: none;
+}
+.fetcher{
+    margin-top: 30px;
+    font-size: 25px;
+
+}
+ul{list-style: none;
+width: 410px;
+}
+ul li{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    margin: 6px 0;
+    box-shadow: -10px 14px 9px rgb(7, 6, 6);
+    transition: 1s linear;
+}
+ul li span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    text-align: center;
+    background: red;
+
+       
+}
